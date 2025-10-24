@@ -3,13 +3,10 @@
 *.log
 data/
 secrets*/
-**/*token*
-*.p12
-*.crt
-*.key
-.config/
+**/token*
+*.pem *.p12 *.crt *.key
 .cache/
-.ssh/
-cloudcode*/
-git-credentials
+ssh/
+.git-credentials
+cloudcode/
 .DS_Store
