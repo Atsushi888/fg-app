@@ -1,0 +1,15 @@
+.env
+.env.*
+*.log
+data/
+secrets*/
+**/*token*
+*.p12
+*.crt
+*.key
+.config/
+.cache/
+.ssh/
+cloudcode*/
+git-credentials
+.DS_Store
